@@ -1,0 +1,42 @@
+export default {
+  en: {
+    'validation.any.required': 'Value is required.',
+    'validation.any.empty': 'Value is required.',
+    'validation.number.base': 'Value is required.',
+    'validation.any.unique': 'Value already exists.',
+    'validation.string.max': 'Length should be {valueMax} characters or fewer.',
+    'validation.string.min': 'Length should be {valueMin} characters or higher.',
+    'validation.string.email': 'Incorrect email.',
+    'validation.number.integer': 'Value should be an integer.',
+    'validation.number.positive': 'Value should be positive.',
+    'validation.preferences.endValue.min': 'End value should be after start value.',
+    'validation.preferences.nbSlotsAvailable.min': 'There should be more available slots than displayed slots.',
+    'validation.number.max': 'Value should be {max} or less.',
+    'validation.number.min': 'Value should be more than {min}.',
+    'validation.number.multiple': 'Value should be a multiple of {value} minutes.',
+    'validation.date.format': `Date format should be '{format}'.`,
+    'validation.preferences.endValue.multiple.slot': 'End value should be reachable from start value with steps of slot length.',
+    'validation.string.uri': 'That value must be an URL.',
+    'validation.string.regex.base': 'Wrong format (Example : {example})'
+  },
+  fr: {
+    'validation.any.required': 'La valeur est obligatoire.',
+    'validation.any.empty': 'La valeur est obligatoire.',
+    'validation.number.base': 'La valeur est obligatoire.',
+    'validation.any.unique': 'La valeur existe déjà.',
+    'validation.string.max': 'Maximum {valueMax} caractères autorisés.',
+    'validation.string.min': 'Minimum {valueMin} caractères autorisés.',
+    'validation.string.email': 'Adresse email incorrect.',
+    'validation.number.integer': 'La valeur doit être un nombre entier.',
+    'validation.number.positive': 'La valeur doit être positive.',
+    'validation.preferences.endValue.min': 'La fin de la période doit être postérieure au début.',
+    'validation.preferences.nbSlotsAvailable.min': 'Il doit y avoir plus de cases disponibles que de cases affichées.',
+    'validation.number.max': 'La valeur doit être inférieure ou égale à {max}.',
+    'validation.number.min': 'La valeur doit être supérieure à {min}.',
+    'validation.number.multiple': 'La valeur doit être un multiple de {value} minutes.',
+    'validation.date.format': `Le format de la date doit être '{format}'.`,
+    'validation.preferences.endValue.multiple.slot': 'La date de fin doit être atteignable depuis la date de début avec un nombre entier de cases.',
+    'validation.string.uri': 'La valeur doit être une URL.',
+    'validation.string.regex.base': 'Pas le bon format (Exemple : {example})'
+  }
+}
